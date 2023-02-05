@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'gpt-py-review = gpt_py_review.extract:main'
+            'gpt-py-review = gpt-py-review.extract:main'
         ]
     }
 )
