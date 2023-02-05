@@ -41,7 +41,8 @@ else:
 
 **[BUG] Test cases need to be included to make sure the function is working as expected.**
 
-**[REFACTOR] It appears that the function is checking if n is equal to 1. However, it would be better to include a condition to check if n is less than or equal to 1 in order to handle the case where the input is 0 or less which would result in an error in the current implementation. **
+**[REFACTOR] It appears that the function is checking if n is equal to 1. However, it would be better to include a condition to check if n is less than or equal to 1 in order to handle the case where the input is 0 or less which would result in an error in the current implementation.**
+
 ```python
 def recur_factorial(n):
    if n <= 1:
