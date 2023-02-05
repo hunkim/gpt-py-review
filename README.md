@@ -4,7 +4,9 @@
 pip install git+https://github.com/hunkim/gpt-py-review.git
 
 ## Review
-SETENV OPENAI_API_KEY and GPT_ENGINE
+Set enviroment variables: `OPENAI_API_KEY` and `GPT_ENGINE`.
+If necessary, also set `REVIEW_PROMPT` and/or `TESTCASE_PROMPT`.
+
 
 Then run `gpt-py-review yourcode.py`
 
