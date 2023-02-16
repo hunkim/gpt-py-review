@@ -1,7 +1,9 @@
 # Review your code with chatgpt
 
 ## Install
+```sh
 pip install git+https://github.com/hunkim/gpt-py-review.git
+```
 
 ## Review
 Set enviroment variables: `OPENAI_API_KEY` and `GPT_ENGINE`.
